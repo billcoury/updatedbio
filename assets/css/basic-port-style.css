@@ -1,0 +1,135 @@
+img {
+  border-radius: 50%;
+  height: 2in;
+  width: 2in;
+ 
+}
+
+img:hover {
+  opacity: 0.5;
+  filter: alpha(opacity=50)}
+
+.container-fluid {
+  background-color: cadetblue;
+  height: max-content;
+  padding: 1in;
+  font-size: 14ptat;
+  width: auto;
+
+}
+footer {
+  height: 1in;
+}
+
+nav {
+  background-color: lightgray;
+  height: 1in;
+  font-size: 16pt
+}
+
+.navbar-brand {
+  font-size: 26pt
+}
+
+.form {
+  margin-left: 20px;
+}
+.name-input,
+.email-input,
+.message-input {
+  width: 920px;
+  line-height: 1.5;
+  margin-top: 5px;
+  margin-bottom: 20px;
+  color: #777777;
+}
+.message-input {
+  height: 150px;
+}
+input:focus,
+textarea:focus {
+  color: black;
+}
+.submit-btn {
+  background-color: #4aaaa5;
+  color: #ffffff;
+  margin-bottom: 20px;
+  border: none;
+  padding: 5px 15px;
+}
+.submit-btn:hover {
+  background-color: #cccccc;
+  color: black;
+  font-weight: bold;
+}
+.submit-btn:active {
+  background-color: #cccccc;
+  color: #4aaaa5;
+  font-weight: bolder;
+}
+.submit-btn:focus {
+  background-color: #cccccc;
+  color: black;
+  font-weight: bold;
+}
+.overlay {
+  width: 100%;
+  opacity: 100;
+  transition: .5s ease;
+ 
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 115%;
+  left: 42%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+
+}
+.textMail {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 115%;
+  left: 31%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+
+}
+
+.textGit {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 115%;
+  left: 31%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+
+}
+.textLink {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 115%;
+  left: 31%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+
+}
+  .col-md:hover .overlay {
+    opacity: 1;
+  }
+
+
